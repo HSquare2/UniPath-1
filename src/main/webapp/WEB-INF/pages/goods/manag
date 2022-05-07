@@ -1,0 +1,121 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%--<%@ page import="com.example.demo2.bean.User" %>--%>
+<%--<%--%>
+<%--    User user = (User)request.getSession().getAttribute("user");--%>
+<%--%>--%>
+<%
+    String path = request.getContextPath();
+    String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<html>
+<head>
+    <title>Unipath</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="body">
+
+
+
+<div class="col-md-8">
+    <h2>UniPath</h2>
+</div>
+
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#a">New York Loan</a>
+                </li>
+
+                <li class="active">
+                    <a href="#c">BestMoney</a>
+                </li>
+                <li>
+                    <a href="#d">Earnest</a>
+                </li>
+<%--                <li>--%>
+<%--                    <a href="#e">Looking for used prodect</a>--%>
+<%--                </li>--%>
+<%--                <li>--%>
+<%--                    <a href="#f">Sell used product</a>--%>
+<%--                </li>--%>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</nav>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Get the loan Information
+<%--                <small>UniPath</small>--%>
+            </h1>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-6 portfolio-item">
+            <!-- <a href="#"> -->
+            <img class="img-responsive" src="https://newyorkloan.com/wp-content/uploads/2022/03/NY-Loan-logo-large.png" alt="" id="a" height="200" width="300"></a>
+            <h3>
+                <a style="color: black" href="https://newyorkloan.com/">New York Loan</a>
+            </h3>
+
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-6 portfolio-item">
+            <!-- <a href="#"> -->
+            <img class="img-responsive" src="https://images.top10.com/c_scale,f_auto,q_auto,w_450/v1/production/articles/uploads/photo/1st-pic-b.20201210130257.jpg" alt="" id="c" height="200" width="300">
+            </a>
+            <h3>
+                <a style="color: black" href="https://www.bestmoney.com/">BestMoney</a>
+            </h3>
+
+        </div>
+        <div class="col-md-6 portfolio-item">
+            <!-- <a href="#"> -->
+            <img class="img-responsive" src="https://i.insider.com/612527bade5f560019e8818a?width=1136&format=jpeg" alt="" id="d" height="200" width="300">
+            </a>
+            <h3>
+                <a style="color: black" href="https://www.earnest.com/">Earnest</a>
+            </h3>
+
+        </div>
+    </div>
+
+
+
+
+
+</div>
+
+
+
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6946e3c2decf57d8","version":"2021.8.1","r":1,"token":"f95a87206c5140fb90f2612ffd79569d","si":10}'></script>
+
+
+</body>
+</html>
